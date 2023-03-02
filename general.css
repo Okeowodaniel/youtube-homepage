@@ -1,0 +1,25 @@
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+/* SECTION VIDEO-=GRID */
+.grid--setup {
+  margin-top: 1.2rem;
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.grid-img {
+  width: 100%;
+}
+
+.iii {
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,225 @@
+html {
+  /* font-size: 10px; */
+  /* * 10px / 16px = 0.625 =62.5% */
+  /* percentage of user's brower font-size seting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: sans-serif; */
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 2rem;
+}
+
+.header-nav-icon {
+  width: 2.3rem;
+  height: 3rem;
+}
+
+.menu-icon {
+  display: flex;
+  gap: 1.2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  margin-left: 15rem;
+}
+
+.search-flex {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.search-bar {
+  display: flex;
+  margin-left: 10rem;
+  border-radius: 20px;
+  border: solid 2px #ddd;
+  width: 60rem;
+  height: 3.6rem;
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  background-color: #fff;
+  /* border: none; */
+}
+
+.search-form input .search-form {
+  color: aqua;
+}
+.search-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.1rem blue;
+}
+
+.dt-img {
+  display: flex;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.img-dt {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+.youtube-img {
+  width: 8rem;
+  height: 5rem;
+}
+
+/* Side SECTIONS */
+
+.nav-section {
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+  position: absolute;
+}
+
+.list-item {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+hr {
+  border: -1px solid #dddddd;
+}
+
+.side-link:hover {
+  height: 100vh;
+  width: 18rem;
+  overflow-y: auto;
+}
+
+.side-link {
+  height: 100vh;
+  width: 18rem;
+  overflow: scroll hidden;
+}
+
+.link-text {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.link-text a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.bt {
+  display: inline;
+  /* padding: 1rem */
+}
+
+.btn--nav:link,
+.btn--nav:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  background-color: #dddddd;
+}
+
+.btn--nav:link,
+.btn--nav:hover {
+  background-color: #c7c7c7;
+}
+
+.btn--nav:link,
+.btn--nav:active {
+  padding: 0.7rem;
+  margin-left: 1rem;
+  border-radius: 6px;
+}
+
+.footer-text a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5;
+  line-height: 1.4;
+}
+
+/* VIDEO-GRID SECTION */
+.grid {
+  position: relative;
+  height: 79vh;
+  left: 20rem;
+  top: 5.6rem;
+  width: 83vw;
+}
+
+.grid-img {
+  cursor: pointer;
+}
+
+.grid-img {
+  height: 15.5rem;
+  border-radius: 10px;
+  /* width: 9.5rem; */
+}
+
+.grid-style a {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  padding: 2rem;
+}
+
+/* Grid text Sytlings */
+
+.lowerthird-text {
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 1.2rem 0 0;
+  gap: 4rem;
+}
+
+.dot {
+  font-weight: 800;
+}
+
+.text-under {
+  display: inline-block;
+  line-height: 1.4;
+  color: #666;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 7.8rem;
+}
+
+.lowerthird-text-overlay {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+figure {
+  height: 30vh;
+}
